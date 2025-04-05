@@ -36,7 +36,7 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className="p-4 text-white">
                   <p className="font-medium">Thomas Nynas</p>
-                  <p className="text-sm text-white/80">Full Stack Python Engineer</p>
+                  <p className="text-sm text-white/80">Senior Full Stack Python Engineer</p>
                 </div>
               </div>
             </div>
@@ -85,12 +85,12 @@ export default function AboutSection() {
         <div>
           <StaggeredContainer>
             <StaggerItem>
-              <h3 className="text-2xl font-bold mb-4">Full Stack Python Engineer & AI Software Engineer</h3>
+              <h3 className="text-2xl font-bold mb-4">Senior Full Stack Python Engineer & AI Software Engineer</h3>
             </StaggerItem>
 
             <StaggerItem>
               <p className="text-muted-foreground mb-6">
-                I am a skilled developer passionate about building scalable web applications and AI-driven solutions.
+                I am a skilled software developer passionate about building scalable web applications and AI-driven solutions.
                 My journey began with backend development, mastering API design, database management, and cloud infrastructure using 
                 Python frameworks like Django, FastAPI, and Flask. Over time, I honed my expertise in optimizing performance, 
                 real-time data processing, and deploying applications on cloud platforms like AWS and Google Cloud with Docker and Kubernetes.

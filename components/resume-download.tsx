@@ -109,7 +109,7 @@ export default function ResumeDownload() {
                 <div className="space-y-8">
                   <div className="text-center mb-8">
                     <h1 className="text-2xl font-bold">Thomas Nynas</h1>
-                    <p className="text-muted-foreground">Full Stack Python Engineer</p>
+                    <p className="text-muted-foreground">Senior Full Stack Python Engineer</p>
                     <div className="flex justify-center gap-4 mt-2 text-sm text-muted-foreground">
                       <span>thomasnynas.genius@gmail.com</span>
                       <span>|</span>
@@ -131,7 +131,7 @@ export default function ResumeDownload() {
                   <ResumeSection icon={<Briefcase className="h-5 w-5 text-primary" />} title="Professional Experience">
                     <div className="space-y-4">
                       <ResumeItem
-                        title="Full Stack Python Engineer"
+                        title="Senior Full Stack Python Engineer"
                         organization="AlfaHive"
                         period="June 2022 - Present"
                         location="Big Sky, MT, USA"

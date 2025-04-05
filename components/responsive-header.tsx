@@ -43,7 +43,7 @@ export default function ResponsiveHeader() {
             <div className="font-bold text-xl">SW</div>
             <div className="hidden md:block">
               <div className="font-bold">Thomas Nynas</div>
-              <div className="text-xs text-muted-foreground">Senior Senior Full Stack Python Engineer</div>
+              <div className="text-xs text-muted-foreground">Senior  Full Stack Python Engineer</div>
             </div>
           </div>
 
@@ -80,7 +80,7 @@ export default function ResponsiveHeader() {
             </div>
             <div className="hidden md:block">
               <div className="font-bold">Thomas Nynas</div>
-              <div className="text-xs text-muted-foreground">Senior Senior Full Stack Python Engineer</div>
+              <div className="text-xs text-muted-foreground">Senior  Full Stack Python Engineer</div>
             </div>
           </div>
         </motion.div>

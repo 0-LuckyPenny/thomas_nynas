@@ -93,7 +93,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Phone</div>
-                <div>(703) 672-5700</div>
+                <div>(610) 234 7687</div>
               </div>
             </div>
 

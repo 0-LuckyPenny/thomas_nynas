@@ -9,7 +9,7 @@ export default function Experience() {
 
       <div className="space-y-8 mt-12">
         <ExperienceCard
-          title="Senior Full Stack Python Engineer"
+          title="Senior Senior Full Stack Python Engineer"
           company="AlfaHive"
           period="Jun 2022 - Present"
           achievements={[

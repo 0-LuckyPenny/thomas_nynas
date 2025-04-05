@@ -22,7 +22,7 @@ interface TimelineEvent {
 const timelineData: TimelineEvent[] = [
   {
     id: "rfc",
-    title: "Senior Full Stack Python Engineer",
+    title: "Senior Senior Full Stack Python Engineer",
     company: "AlfaHive",
     location: "Big Sky, MT, USA",
     period: "June 2022 - Present",

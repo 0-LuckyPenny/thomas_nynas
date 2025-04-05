@@ -27,7 +27,7 @@ import {
 const experiences = [
   {
     id: "rfc",
-    title: "Senior Full Stack Python Engineer",
+    title: "Senior Senior Full Stack Python Engineer",
     company: "AlfaHive",
     location: "Big Sky, MT, USA",
     period: "Jun 2022 - Present",
@@ -50,7 +50,7 @@ const experiences = [
   },
   {
     id: "success-academy",
-    title: "Full Stack Python Developer",
+    title: "Full Stack Python Engineer",
     company: "Panassonic North America",
     location: "Newark, New Jersey, USA",
     period: "July 2019 - May 2022",

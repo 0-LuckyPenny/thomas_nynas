@@ -1,6 +1,6 @@
-# Thomas Nynas - Full Stack Python Engineer & AI Software Engineer
+# Thomas Nynas - Senior Full Stack Python Engineer & AI Software Engineer
 
-Welcome to my portfolio! I'm a passionate and skilled Full Stack Python Engineer with over 7 years of experience in building scalable web applications and AI-driven solutions. I specialize in backend development using Python frameworks, AI integrations, cloud infrastructure, and real-time data processing.
+Welcome to my portfolio! I'm a passionate and skilled Senior Full Stack Python Engineer with over 7 years of experience in building scalable web applications and AI-driven solutions. I specialize in backend development using Python frameworks, AI integrations, cloud infrastructure, and real-time data processing.
 
 ## 💼 About Me
 

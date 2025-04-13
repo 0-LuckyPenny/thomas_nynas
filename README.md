@@ -10,7 +10,7 @@ I am committed to delivering high-performance, scalable applications that merge 
 
 ## 🛠️ Technologies
 
-- **Backend**: Python (Django, Flask, FastAPI), Node.js, Express
+- **Backend**: Python (Django, Flask, FastAPI)
 - **Frontend**: React, Vue.js, Next.js, Angular
 - **AI/ML**: TensorFlow, PyTorch, Scikit-learn, Keras
 - **Database**: PostgreSQL, MySQL, MongoDB, Redis

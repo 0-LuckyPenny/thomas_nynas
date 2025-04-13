@@ -66,12 +66,12 @@ const skillCategories = [
     icon: <Cpu className="h-5 w-5" />,
     color: "from-purple-500 to-violet-500",
   },
-  // {
-  //   id: "data",
-  //   name: "Data Science",
-  //   icon: <Database className="h-5 w-5" />,
-  //   color: "from-amber-500 to-yellow-500",
-  // },
+  {
+    id: "data",
+    name: "Data Science",
+    icon: <Database className="h-5 w-5" />,
+    color: "from-amber-500 to-yellow-500",
+  },
   // {
   //   id: "network",
   //   name: "Network Analysis",
@@ -165,8 +165,8 @@ const skillsData = {
     { name: "CUDA", level: 75 },
     { name: "TensorRT", level: 65 },
     { name: "MLflow", level: 70 },
-    { name: "Node.js", level: 75 },
-    { name: "Flask", level: 85 },
+    // { name: "Pandas", level: 75 },
+    // { name: "Flask", level: 85 },
   ],
   data: [
     { name: "Data Mining", level: 85 },

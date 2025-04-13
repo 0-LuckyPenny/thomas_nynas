@@ -50,7 +50,7 @@ const skillsData: SkillGroup[] = [
       { area: "PyTorch", value: 90, fullMark: 100 },
       { area: "TensorFlow", value: 85, fullMark: 100 },
       { area: "React", value: 80, fullMark: 100 },
-      { area: "Node.js", value: 75, fullMark: 100 },
+      // { area: "Node.js", value: 75, fullMark: 100 },
       { area: "Scikit-learn", value: 95, fullMark: 100 },
       { area: "Hugging Face", value: 80, fullMark: 100 },
     ],

@@ -31,7 +31,7 @@ export default function RootLayout({
         <link rel="preload" href="/placeholder.svg?height=400&width=400" as="image" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-
+        <link rel="icon" href="https://thomas-nynas.vercel.app/favicon.png" />
         {/* Add preload hints for critical JavaScript */}
         <link rel="preload" href="/_next/static/chunks/framework.js" as="script" />
 

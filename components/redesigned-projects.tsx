@@ -264,6 +264,37 @@ const projects = [
     challenges:"Developed a travel booking site that integrated real-time data for availability and pricing, ensuring users had up-to-date information. Implemented scalable architecture to handle high traffic during peak seasons, optimizing performance and user experience.",
     implements:"Implemented real-time data integration for flights, hotels, and car rentals, optimized scalability with AWS, and enhanced user experience through dynamic search filters and interactive maps.",
   },
+  {
+    id: 10,
+    title: "Banking System",
+    category: "web",
+    description: "A high-traffic banking system built to serve millions with secure, intelligent financial transaction processing.",
+    longDescription:
+      "This banking platform handles online transactions, media recognition, and customer identity validation. It supports real-time fund transfers, secure user authentication, and provides intelligent services like fraud detection and document verification. The platform is optimized for speed, reliability, and compliance with financial standards.",
+    technologies: ["Django", "Angular", "OpenCV", "PostgreSQL", "Redis", "Docker", "Kubernetes"],
+    imageUrl: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/Thomas_portfolio_images/bank3-vs1A80fmtTBChKutzNtg2ReYmVrVeT.png",
+    demoUrl: "https://www.firstcitizens.com/",
+    githubUrl: "https://github.com/",
+    color: "from-green-600 to-blue-600",
+    featured: false,
+    completed: "2023",
+    teamSize: 12,
+    difficulty: 10,
+    achievements: [
+      "Built an intelligent media recognition system for secure identity verification using facial recognition and OCR.",
+      "Handled over 10M transactions monthly with minimal latency and zero downtime.",
+      "Optimized backend workflows to reduce processing time of large datasets by 35%.",
+      "Implemented custom admin dashboard with real-time analytics for fraud detection and reporting.",
+    ],
+    gallery:[
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/Thomas_portfolio_images/bank3_2-fMJs5DXiPbErKLahemSszBNg3hdIj9.png",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/Thomas_portfolio_images/bank3_4-5bRV3AJWufe3Wbr2W65N6vc97o1iAZ.png",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/Thomas_portfolio_images/bank3_5-vbJhMYdBcHNXuHvKeHvMVfRVgyjan2.png",
+      "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/Thomas_portfolio_images/bank3_6-uGsE2V9w7EANi3gV1FS7BrmtmZgXrX.png",
+    ],
+    challenges: "Built a secure banking platform capable of handling millions of users, integrating intelligent image recognition for fraud detection, and ensuring compliance with strict security protocols while maintaining high-speed transaction processing.",
+    implements: "Integrated real-time transaction validation, facial recognition with OpenCV, optimized database performance, containerized services with Docker, and deployed on Kubernetes for horizontal scalability.",
+  },
 ]
 
 export default function RedesignedProjects() {

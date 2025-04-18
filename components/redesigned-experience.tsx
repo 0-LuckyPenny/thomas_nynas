@@ -26,7 +26,7 @@ import {
 // Experience data
 const experiences = [
   {
-    id: "rfc",
+    id: "1",
     title: "Senior  Full Stack Python Engineer",
     company: "AlfaHive",
     location: "Big Sky, MT, USA",
@@ -49,7 +49,7 @@ const experiences = [
     color: "from-indigo-600 to-purple-600",
   },
   {
-    id: "success-academy",
+    id: "2",
     title: "Full Stack Python Engineer",
     company: "Panassonic North America",
     location: "Newark, New Jersey, USA",
@@ -69,31 +69,123 @@ const experiences = [
       { value: "32", label: "Team Size" },
       { value: "95%", label: "Pass Rate" },
     ],
+    color: "from-indigo-600 to-emerald-600",
+  },
+  // {
+  //   id: "3",
+  //   title: "Full Stack Python Engineer",
+  //   company: "Panassonic North America",
+  //   location: "Newark, New Jersey, USA",
+  //   period: "July 2019 - May 2022",
+  //   type: "Remote Work",
+  //   description:
+  //     "developed scalable web applications, designed APIs, optimized backend processes, automated deployment, mentored junior developers, and integrated AI solutions to drive innovation.",
+  //   responsibilities: [
+  //     "Developed and maintained scalable web applications, ensuring smooth integration between frontend and backend systems to meet business requirements.",
+  //     "Designed and implemented robust APIs, optimizing data flow and enabling seamless communication between services.",
+  //     "Collaborated with cross-functional teams, including UI/UX designers and product managers, to deliver high-quality, user-centered features.",
+  //     "Implemented AI-driven solutions, contributing to product innovation by integrating machine learning algorithms and improving data analysis capabilities.",
+  //   ],
+  //   skills: ["Python", "React", "Vue.js", "TensorFlow", "PyTorch", "Jenkins", "AWS", "PyTest"],
+  //   metrics: [
+  //     { value: "150+", label: "Students" },
+  //     { value: "32", label: "Team Size" },
+  //     { value: "95%", label: "Pass Rate" },
+  //   ],
+  //   color: "from-green-600 to-emerald-600",
+  // },
+  {
+    id: "4",
+    title: "AI Solutions Architect",
+    company: "DataRobot",
+    location: "San Francisco, CA, USA",
+    period: "May 2023 - Aug 2024",
+    type: "Remote Work",
+    description:
+    "architected end-to-end AI solutions, led cross-functional AI initiatives, designed scalable infrastructure, integrated LLMs, and ensured successful enterprise AI adoption.",
+    responsibilities: [
+      "Architected and delivered AI-powered solutions by aligning technical strategies with business goals across enterprise projects.",
+      "Designed scalable infrastructures for model deployment using Kubernetes, Terraform, and AWS, ensuring high availability and low latency.",
+      "Integrated LLMs (GPT-4, Bard, Mistral AI) to automate workflows such as intelligent chatbots, sentiment analysis, and document summarization.",
+      "Led cross-functional teams through the full AI lifecycle—from data ingestion and model development to MLOps and monitoring.",
+    ],
+    skills: ["Python", "Terraform", "Kubernetes", "AWS", "LLMs", "GPT-4", "FastAPI", "Docker", "MLflow", "GraphQL"],
+    metrics: [
+      { value: "12", label: "Enterprise AI Projects Delivered" },
+      { value: "4x", label: "Improved Deployment Efficiency" },
+      { value: "99.5%", label: "Service Uptime" },
+    ],
     color: "from-green-600 to-emerald-600",
   },
   {
-    id: "research-assistant",
-    title: "Research Assistant",
-    company: "Alderson Broaddus University",
-    location: "Phillipi, West Virginia",
-    period: "Apr 2016 - May 2019",
-    type: "education",
+    id: "5",
+    title: "Machine Learning Engineer",
+    company: "DataRobot",
+    location: "San Francisco, CA, USA",
+    period: "July 2021 - Mar 2023",
+    type: "Remote Work",
     description:
-      "Improved university applications by integrating AI, mentoring developers, and optimizing backend performance for a better learning experience.",
+    "designed and deployed machine learning models, automated data pipelines, collaborated with data teams, enhanced model performance, and contributed to AI-powered product features.",
     responsibilities: [
-      "Researched and implemented new technologies to improve university applications",
-      "Integrated AI and machine learning for personalized learning and data analysis.",
-      "Contributed to the development of engaging e-learning platforms.",
-      "Collaborated with faculty and students to understand learning needs.",
+      "Designed and trained supervised and unsupervised ML models for classification, regression, and recommendation tasks using Scikit-learn and TensorFlow.",
+      "Collaborated with data engineers to build automated pipelines for feature extraction, model training, and deployment using Airflow and Docker.",
+      "Optimized model performance through hyperparameter tuning, cross-validation, and monitoring with MLflow and custom dashboards.",
+      "Worked closely with product teams to integrate AI models into customer-facing features, including real-time predictions and personalization.",
     ],
-    skills: ["Python", "Data Analysis", "Operating Systems", "Scientific Computing", "Data Structures and Algorithms"],
+    skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Docker", "Airflow", "MLflow", "Pandas", "AWS SageMaker"],
     metrics: [
-      { value: "3", label: "Publications" },
-      { value: "5", label: "Conferences" },
-      { value: "2", label: "Research Grants" },
+      { value: "50+", label: "Models Deployed" },
+      { value: "3x", label: "Faster Inference Time" },
+      { value: "98%", label: "Model Accuracy (avg.)" },
     ],
-    color: "from-blue-600 to-cyan-600",
+    color: "from-green-600 to-emerald-600",
   },
+  {
+    id: "6",
+    title: "Data Engineer",
+    company: "Cognizant Technology Solutions",
+    location: "Teaneck, New Jersey, USA",
+    period: "July 2019 - May 2021",
+    type: "Remote Work",
+    description:
+    "engineered data pipelines, developed ETL processes, optimized large-scale data workflows, collaborated with data scientists, ensured data quality, and supported AI-driven analytics and reporting.",
+    responsibilities: [
+      "Built and maintained robust ETL pipelines using Python and SQL to process and transform large volumes of structured and unstructured data.",
+      "Worked closely with data scientists and ML engineers to deploy AI/ML models and ensure seamless data accessibility and accuracy.",
+      "Optimized data workflows by automating ingestion and cleaning processes, reducing data latency and increasing throughput.",
+      "Monitored data quality, implemented validation checks, and collaborated with DevOps to manage infrastructure with Docker and Kubernetes.",
+    ],
+    skills: ["Python", "SQL", "Airflow", "AWS", "Docker", "Kubernetes", "Pandas", "Snowflake", "TensorFlow"],
+    metrics: [
+      { value: "5TB+", label: "Daily Data Processed" },
+      { value: "25", label: "Cross-Functional Team Members" },
+      { value: "99.9%", label: "Pipeline Uptime" },
+    ],
+    color: "from-green-600 to-cyan-600",
+  },
+  // {
+  //   id: "research-assistant",
+  //   title: "Research Assistant",
+  //   company: "Alderson Broaddus University",
+  //   location: "Phillipi, West Virginia",
+  //   period: "Apr 2016 - May 2019",
+  //   type: "education",
+  //   description:
+  //     "Improved university applications by integrating AI, mentoring developers, and optimizing backend performance for a better learning experience.",
+  //   responsibilities: [
+  //     "Researched and implemented new technologies to improve university applications",
+  //     "Integrated AI and machine learning for personalized learning and data analysis.",
+  //     "Contributed to the development of engaging e-learning platforms.",
+  //     "Collaborated with faculty and students to understand learning needs.",
+  //   ],
+  //   skills: ["Python", "Data Analysis", "Operating Systems", "Scientific Computing", "Data Structures and Algorithms"],
+  //   metrics: [
+  //     { value: "3", label: "Publications" },
+  //     { value: "5", label: "Conferences" },
+  //     { value: "2", label: "Research Grants" },
+  //   ],
+  //   color: "from-blue-600 to-cyan-600",
+  // },
 ]
 
 export default function RedesignedExperience() {
@@ -121,7 +213,7 @@ export default function RedesignedExperience() {
           onValueChange={(value) => setExperienceType(value as "all" | "work" | "education")}
           className="w-full"
         >
-          <div className="overflow-x-auto pb-2 no-scrollbar">
+          {/* <div className="overflow-x-auto pb-2 no-scrollbar">
             <TabsList className="flex justify-center gap-2 mb-8 bg-transparent w-fit mx-auto">
               <TabsTrigger
                 value="all"
@@ -161,7 +253,7 @@ export default function RedesignedExperience() {
                 </div>
               </TabsTrigger>
             </TabsList>
-          </div>
+          </div> */}
 
           <div className="space-y-6">
             {filteredExperiences.map((experience, index) => (
